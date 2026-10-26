@@ -59,3 +59,7 @@ docker compose logs -f app
 ## Documents
 
 See `docs/`. Fill each one in; run every command you write in a clean checkout.
+
+## Learning Progress
+
+FDE starter project setup and initial quality checks completed.
