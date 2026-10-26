@@ -10,7 +10,7 @@ def test_settings_repr_hides_secret_values():
     settings = Settings(
         postgres_password=SecretStr("super-secret-value"),
         llm_api_key=SecretStr("another-secret"),
-        )  # noqa: S106
+    )
     text = repr(settings)
     assert "super-secret-value" not in text
     assert "another-secret" not in text
